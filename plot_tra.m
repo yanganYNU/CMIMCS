@@ -1,0 +1,1 @@
+function plot_tra(arr,m)% 计算角度% 输入：1、一个 m行 2列 的二维数组 arr%           2、坐标序号 i% 输出：1、坐标形成的轨迹%           2、标记出坐标的点figure,plot(arr(:,1),arr(:,2),'r');title('动态轨迹');hold on;for i=1 : m    plot( arr(i,1), arr(i,2), '.k', 'MarkerSize',20 );    text( arr(i,1), arr(i,2), ['（',num2str(arr(i,1)), '，', num2str(arr(i,2)),'）'],'color',[0 0 0]);endend

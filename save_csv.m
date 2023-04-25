@@ -1,0 +1,1 @@
+function mydata = save_csv(segment)%   将参数保存为csv文件mydata = array2table( segment, 'VariableNames', {'x', 'y', 'dx', 'dy', 'k', 'Len', ...    'ANGLE', 'distance', 'vx', 'vy', 'V', 'A', 'ax', 'ay', 'MotionType', 'TimeSample', ...    'TimeEnd' } );writetable( mydata, "A:\MATLAB\Dynamic trajectory\mydata.csv");% dlmwrite('mydata.csv', segment, 'precision', '%.2f');end

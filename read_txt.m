@@ -1,0 +1,1 @@
+function [to_str,m] = read_txt% 读取txt文件% 输入：1、txt文件        % 输出：1、一个一行n列的字符数组%           2、字符行数filename_1 = 'data.txt';filename_2 = fopen(filename_1);to_str = textscan(filename_2,'%s','delimiter','\n');m = length(to_str{1});fclose(filename_2);end
