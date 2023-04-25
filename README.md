@@ -1,2 +1,1 @@
-# Continuous Micro-segment Intelligent Motion Control Simulation
-# CMIMCS连续微段智能运动控制仿真
+# 1、Continuous micro-segment motion control intelligent simulation algorithm in MATLAB
